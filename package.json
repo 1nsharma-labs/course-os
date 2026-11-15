@@ -1,0 +1,39 @@
+{
+  "name": "course-os",
+  "version": "1.0.0",
+  "description": "The Open-Source Interactive Learning & Course Engine — In-browser code labs, invariant testing, and verifiable digital certificates",
+  "type": "module",
+  "main": "core/src/curriculum.js",
+  "bin": {
+    "course-os": "./cli/bin/course.js"
+  },
+  "scripts": {
+    "start": "node cli/bin/course.js status",
+    "test": "node --test test/test_course.js",
+    "mcp": "node core/src/mcp/server.js"
+  },
+  "keywords": [
+    "interactive-courses",
+    "code-labs",
+    "learning-platform",
+    "certifications",
+    "mcp-server"
+  ],
+  "author": "Amit Sharma <amitsharma9976@gmail.com> (https://github.com/1nsharma)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1nsharma-labs/course-os.git"
+  },
+  "homepage": "https://1nsharma-labs.github.io/course-os/",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://polar.sh/1nsharma-labs"
+    },
+    {
+      "type": "upi",
+      "url": "upi://pay?pa=6393741171@upi&pn=Amit%20Sharma"
+    }
+  ]
+}
